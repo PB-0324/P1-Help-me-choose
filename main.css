@@ -16,7 +16,7 @@ h1  {
 }
 
 .inputSection {
-  margin: 50px 0px 80px 0px;
+  margin: 10px 0px 80px 0px;
   width: 400px
 }
 
@@ -28,19 +28,25 @@ h1  {
 
 input {
     margin-top: 10px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
 }
 
 .addOption  {
+  background-color: white;
+  border: none;
   margin-top: 10px;
-  color: purple;
-  font-size: 20px;
-  align-items: center;
+  color: black;
+  font-size: 15px;
   font-family: 'Open Sans', sans-serif;
 }
 
 .goOption {
-  color: purple;
-  font-size: 20px;
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 15px;
   font-family: 'Open Sans', sans-serif;
 }
 
