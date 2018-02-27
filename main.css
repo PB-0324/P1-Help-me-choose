@@ -1,0 +1,49 @@
+body  {
+  display:  flex;
+  font-family: 'Open Sans', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px
+}
+
+h1  {
+  font-weight:  lighter;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+
+.inputSection {
+  margin: 50px 0px 80px 0px;
+  width: 400px
+}
+
+.inputs {
+  width: inherit;
+  display:  flex;
+  flex-direction: column;
+}
+
+input {
+    margin-top: 10px;
+}
+
+.addOption  {
+  margin-top: 10px;
+  color: purple;
+  font-size: 20px;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.goOption {
+  color: purple;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Backgr {
+  background-color: rgba(255, 99, 71, 0.5);
+}
