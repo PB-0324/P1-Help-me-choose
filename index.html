@@ -1,19 +1,20 @@
-<!doctype html><!--Läggs alltid in först för att tala om att det är en HTML-sida-->
-<html lang=en><!--HTML-taggen tillhör grundstrukturen, definiera språket med en meta-tagg, här language=engelska-->
-  <head><!--tillhör grundstrukturen, innehåller alltid meta-data som tex länk till CSS, eller Scripts till verktyg som Google analytics-->
-    <meta charset=utf8><!--typsnitt?-->
-    <title>Help me choose</title><!--Title ligger alltid innanför head-tag och talar om för webläsaren vad den ska visa i fliken i fönstret-->
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset=utf8>
+    <title>Help me choose</title>
     <link href="./main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
-  <body><!--Grundstuktur. Allt som ligger innnanför body-taggen syns på hemsidan. ex Bilder, rubriker, länkar etc-->
-    <img src="https://cdn.pixabay.com/photo/2017/06/15/11/49/question-mark-2405202_960_720.png" alt="Questionsmarks" height="200" width="400">
-    <h1>Help me choose between...</h1><!--definierar en rubrik, finns upp till h6, som är den minsta storleken-->
-    <div><!--Definierar ett block/sektion, som grupperas i html:en-->
-      <div>
-        <input placeholder="Something"></input><!--Ett ställe där en anv kan lägga in data-->
+  <body class="Backgr">
+    <img src="https://vignette.wikia.nocookie.net/deathbattle/images/a/af/Question_mark.png/revision/latest?cb=20160523022951" alt="Questionsmarks" height="200" width="200">
+    <h1>Help me choose between...</h1>
+    <div class="inputSection">
+      <div class="inputs">
+        <input placeholder="Something"></input>
       </div>
-      <button>Add</button><!--Knapp som går att trycka på, lägg knappens namn i taggarna-->
+      <button class="addOption">ADD</button>
     </div>
-    <button>Go!</button>
+    <button class="goOption">GO!</button>
   </body>
 </html>
