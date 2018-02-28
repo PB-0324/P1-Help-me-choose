@@ -7,14 +7,35 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body class="Backgr">
-    <img src="https://vignette.wikia.nocookie.net/deathbattle/images/a/af/Question_mark.png/revision/latest?cb=20160523022951" alt="Questionsmarks" height="200" width="200">
-    <h1>Help me choose between...</h1>
+    <img src="http://webiconspng.com/wp-content/uploads/2017/09/World-Map-PNG-Image-90101.png" alt="worldMap" height="320" width="600">
+    <h1>Where should I travel next...</h1>
     <div class="inputSection">
       <div class="inputs">
-        <input placeholder="Something"></input>
+        <input placeholder="Country"></input>
       </div>
       <button class="addOption">ADD</button>
     </div>
+    <div class="resultSection"></div>
     <button class="goOption">GO!</button>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(function() {
+        $('.resultSection').hide()
+
+          var add_option = function() {
+            $('.inputs').append('<input></input>')
+          }
+        $('.addOption').click(add_option)
+
+        $('.h1').css('background-color', 'orange')
+
+        }
+      })
+    </script>
   </body>
 </html>
+
+
+
+{}
